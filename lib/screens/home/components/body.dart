@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shop_app/constants.dart';
+import 'package:shop_app/screens/home/components/categories.dart';
 
 class Body extends StatelessWidget {
   const Body({Key? key}) : super(key: key);
@@ -17,6 +18,7 @@ class Body extends StatelessWidget {
                   .headline5
                   ?.copyWith(fontWeight: FontWeight.bold)),
         ),
+        const Categories(),
       ],
     );
   }
