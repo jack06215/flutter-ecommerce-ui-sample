@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:shop_app/constants.dart';
+import 'package:shop_app/screens/home/components/body.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -9,10 +10,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: buildAppBar(),
-      body: const Text(
-        "Hello E-commerce",
-        style: TextStyle(fontSize: 30),
-      ),
+      body: const Body(),
     );
   }
 
